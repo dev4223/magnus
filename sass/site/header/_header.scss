@@ -5,14 +5,15 @@
     width: 100%;
     padding: ms(0) ms(0) ms(1);
     margin-bottom: 0;
-    background: $color__background-header;
+    background: $color__background-body;
+    border-bottom: 1px solid $color__base;
 
     .featured-image &,
     .header-image &,
     .blog.home &,
     .error404 & {
-        position: absolute;
-        background: transparent;
+        position: relative;
+        background: $color__background-body;
         margin-bottom: 0;
     }
 }
@@ -21,23 +22,24 @@
     @include animation(fadein 0.3s ease-out 1s backwards);
 
     position: relative;
-    width: 30%;
-    float: left;
+    width: 100%;
+    text-align: center;
     color: #fff;
     z-index: 9000;
 
     @include transition(all 0.5s ease-in-out);
 
     h1 {
-        font-size: ms(-2);
+        font-weight: 200;
+        font-size: ms(+1);
         letter-spacing: ms(-10);
-        margin: 0 0 ms(-4);
+        margin: 0.3em auto 0 auto;
         a {
             color: $color__headerlink;
             text-decoration: none;
             &:hover {
-                color: $color__headerlink-hover;
-                //text-decoration: underline;
+                border-bottom: 2px solid $color__link-border;
+                border-bottom: 1px solid ;
             }
         }
     }

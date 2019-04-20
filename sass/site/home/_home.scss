@@ -2,14 +2,14 @@
 
     .site-main {
         overflow: hidden;
-        background: $color__background-feature;
+        background: $color__background-body;
     }
 
     .section-image {
         position: absolute;
         width: 100%;
         height: 100%;
-        opacity: 0.6;
+        opacity: 1;
         //@include animation(fadein-images 1s ease-out backwards, image-pulse 15.0s ease-in-out infinite alternate);
         background-size: cover;
         background-position: center;
@@ -38,7 +38,7 @@
             width: 100%;
             height: 100vh;
             .section-image {
-                @include animation(fadein-images 1s ease-out backwards, image-pulse 15.0s ease-in-out infinite alternate);
+                //@include animation(fadein-images 1s ease-out backwards, image-pulse 15.0s ease-in-out infinite alternate);
             }
         }
 
@@ -76,7 +76,7 @@
                 margin-bottom: ms(-6);
                 a {
                     text-decoration: none;
-                    color: white;
+                    color: $color__base;
                     &:hover {
                         color: $color__titlelink-hover;
                     }

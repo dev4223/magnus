@@ -3,19 +3,21 @@
     width: 100%;
     height: 100%;
     top: 0;
-    right: 0;
-    left: auto;
+    left: 0;
+    right: auto;
+
+    border-left: 1px solid $color__base;
     
-    @include transform(translateX(100%));
+    @include transform(translateX(-100%));
     
     padding: ms(2);
     overflow: scroll;
     overflow-x: hidden;
     z-index: 9000;
     
-    background-color: $color__background-drawer;
-    color: white;
-    opacity: 0;
+    background-color: $color__background-body;
+    color: $color__base;
+    opacity: 1;
 
     // closing animation
     @include transition-property(transform, width, opacity);
@@ -26,14 +28,14 @@
     @include respondTo(atleast-medium) {
         width: $size__site-sidebar;
         padding: ms(2) 0;
-        background: rgba($color__background-drawer,.95);
+        background: $color__background-body;
     }
 
     .sidebar-inner {
         max-width: ms(16);
         margin: 0 auto;
         padding: 0 ms(6);
-        opacity: 0;
+        //opacity: 0;
 
         // closing animation
         @include transition(opacity,0.4s,ease-out);

@@ -1,10 +1,13 @@
 module.exports = function(grunt) {
+	const sass = require('node-sass');
+
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
 
 		sass: {
 			dist: {
 				options: {
+					implementation: sass,
 					sourceMap: true,
 					includePaths: require('node-bourbon').includePaths,
 					outputStyle: "expanded"

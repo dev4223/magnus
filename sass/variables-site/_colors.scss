@@ -2,7 +2,7 @@
 // Colors
 //
 
-$color__base: #141428; //old: #141532
+$color__base: #000;
 
 $color__base-tint10: tint($color__base,10%);
 $color__base-tint15: tint($color__base,15%);
@@ -19,7 +19,7 @@ $color__base-shade10: shade($color__base,10%);
 $color__base-shade20: shade($color__base,20%);
 
 
-$color__accent: #eb6e78;
+$color__accent: #aa1133;
 
 $color__accent-tint10: tint($color__accent,10%);
 $color__accent-tint20: tint($color__accent,20%);
@@ -53,7 +53,7 @@ $color__background-header: $color__base-tint15;
 $color__background-archive-header: $color__base-tint90;
 $color__background-feature: $color__base;
 $color__background-drawer: $color__base-tint95;
-$color__background-footer: $color__base-tint95;
+$color__background-footer: $color__background-body;
 $color__background-404: $color__accent;
 $color__background-table-header: rgba($color__base,.05);
 
@@ -77,27 +77,28 @@ $color__text-shadow-sidebar: $color__base-tint95;
 
 // Links
 
-$color__link: $color__accent;
-$color__link-visited: $color__accent-tint10;
-$color__link-hover: $color__base-tint20;
+$color__link: $color__base;
+$color__link-visited: $color__base;
+$color__link-hover: $color__base;
+$color__link-border: $color__base;
 
-$color__link-sidebar: $color__base-tint40;
-$color__link-sidebar-hover: $color__accent;
+$color__link-sidebar: $color__base;
+$color__link-sidebar-hover: $color__base;
 
-$color__titlelink: $color__base-tint20;
-$color__titlelink-hover: $color__accent;
+$color__titlelink: $color__base;
+$color__titlelink-hover: $color__base;
 
 $color__asidelink: $color__base-tint60;
 $color__asidelink-hover: $color__accent;
 
-$color__headerlink: $color__base-tint90;
-$color__headerlink-hover: #fff;
+$color__headerlink: $color__base;
+$color__headerlink-hover: $color__base;
 
-$color__headerlink-toggle-open: $color__base-tint60;
-$color__headerlink-toggle-open-hover: $color__accent;
+$color__headerlink-toggle-open: $color__base;
+$color__headerlink-toggle-open-hover: $color__base;
 
-$color__headernavlink: rgba($color__base-tint90,.7);
-$color__headernavlink-hover: #fff;
+$color__headernavlink: $color__base;
+$color__headernavlink-hover: $color__base;
 
 $color__footerlink: $color__base-tint70;
 $color__footerlink-hover: $color__accent;

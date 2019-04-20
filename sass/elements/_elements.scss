@@ -16,13 +16,13 @@ body {
 }
 
 ::selection {/* WebKit/Blink Browsers */
-	background: $color__accent-tint10; 
-	color: $color__accent-tint90;
+	background: $color__base; 
+	color: $color__background-body;
 	text-shadow: 0 1px 1px $color__accent-shade20;
 }
 ::-moz-selection { /* Gecko Browsers */
-	background: $color__accent-tint10;
-	color: $color__accent-tint90;
+	background: $color__base;
+	color: $color__background-body;
 	text-shadow: 0 1px 1px $color__accent-shade20;
 }
 
