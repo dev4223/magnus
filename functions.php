@@ -148,7 +148,7 @@ function magnus_fonts_url() {
  */
 function magnus_scripts() {
 	// Add custom fonts, used in the main stylesheet.
-	wp_enqueue_style( 'magnus-fonts', magnus_fonts_url(), array(), null );
+	//wp_enqueue_style( 'magnus-fonts', magnus_fonts_url(), array(), null );
 
 	// Load our main stylesheet.
 	wp_enqueue_style( 'magnus-style', get_stylesheet_uri() );

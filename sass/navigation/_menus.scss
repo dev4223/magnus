@@ -101,8 +101,8 @@
 	.main-navigation {
         padding-bottom: ms(4);  
         margin-top: 0;      
-		@include text-format(heading-small);
-        font-weight: bold;
+		@include text-format(heading-normal);
+        font-weight: 200;
 		h2 {
 			display: none;
 		}
@@ -125,7 +125,7 @@
         }
         a {
         	display: block;
-        	padding: ms(1) 0;
+        	padding: 0 0;
         }
     }
 }

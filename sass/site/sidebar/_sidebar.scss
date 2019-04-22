@@ -6,12 +6,12 @@
     left: 0;
     right: auto;
 
-    border-left: 1px solid $color__base;
+    border-right: 1px solid $color__base;
     
     @include transform(translateX(-100%));
     
     padding: ms(2);
-    overflow: scroll;
+    overflow: auto;
     overflow-x: hidden;
     z-index: 9000;
     
