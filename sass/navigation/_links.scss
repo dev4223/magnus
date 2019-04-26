@@ -7,7 +7,6 @@ a {
 	&:hover,
 	&:focus,
 	&:active {
-		border-bottom: 2px solid $color__link-border;
 		color: $color__link-hover;
 		@include transition-property(color, text-decoration, opacity);
 		@include transition-duration(0.05s);

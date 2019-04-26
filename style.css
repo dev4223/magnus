@@ -400,7 +400,7 @@ input,
 select,
 textarea {
   color: #666666;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Source Sans Pro", "IBM Plex Sans", sans-serif;
   font-size: 21px;
   font-weight: 400;
   line-height: 1.5;
@@ -410,7 +410,7 @@ h1, h2, h3, h4, h5, h6, form button,
 form input[type="button"],
 form input[type="reset"],
 form input[type="submit"], .comment-form label {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Source Sans Pro", "IBM Plex Sans", sans-serif;
   font-size: 1em;
   clear: both;
   text-transform: uppercase;
@@ -453,12 +453,12 @@ form input[type="submit"], .comment-form label {
 }
 
 .site-main h2 {
-  font-size: 2.25em;
+  font-size: 2.8935em;
 }
 
 @media (max-width: 480px) {
   .site-main h2 {
-    font-size: 1.5em;
+    font-size: 1.929em;
   }
 }
 
@@ -789,7 +789,7 @@ textarea {
 }
 
 .post-password-form label {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Source Sans Pro", "IBM Plex Sans", sans-serif;
   font-size: 0.6666666667em;
   clear: both;
   text-transform: uppercase;
@@ -832,7 +832,6 @@ a:visited {
 }
 
 a:hover, a:focus, a:active {
-  border-bottom: 2px solid #000;
   color: #666666;
   -webkit-transition-property: color, text-decoration, opacity;
   -moz-transition-property: color, text-decoration, opacity;
@@ -883,7 +882,7 @@ a:hover, a:active {
   left: 0;
   margin: 0 0;
   padding: 1.286em 1em 1.5em;
-  z-index: 100;
+  z-index: 999999;
 }
 
 .sidebar-toggle span, .sidebar-toggle span:before, .sidebar-toggle span:after {
@@ -1090,7 +1089,7 @@ a:hover, a:active {
   left: 0;
   width: 70%;
   text-align: right;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Source Sans Pro", "IBM Plex Sans", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.1316872428em;
@@ -1114,7 +1113,7 @@ a:hover, a:active {
 }
 
 .site-header .header-navigation a:hover {
-  color: #000;
+  color: #666666;
 }
 
 .site-header .header-navigation .menu-header-container {
@@ -1233,7 +1232,7 @@ a:hover, a:active {
 .post-navigation .nav-next a {
   display: inline-block;
   text-decoration: none;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Source Sans Pro", "IBM Plex Sans", sans-serif;
   font-size: 0.6666666667em;
   clear: both;
   text-transform: uppercase;
@@ -1440,7 +1439,7 @@ blockquote.alignright {
 }
 
 .site-branding h2 {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Source Sans Pro", "IBM Plex Sans", sans-serif;
   font-size: 0.6666666667em;
   font-weight: 400;
   font-style: italic;
@@ -1452,7 +1451,6 @@ blockquote.alignright {
 
 @media (max-width: 800px) {
   .site-branding {
-    width: 80%;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
@@ -1581,7 +1579,7 @@ blockquote.alignright {
 }
 
 .entry-header .entry-title a:hover {
-  color: #000;
+  color: #666666;
 }
 
 .entry-header .entry-meta,
@@ -1601,7 +1599,7 @@ blockquote.alignright {
 
 .entry-header .entry-meta a:hover,
 .entry-footer a:hover {
-  color: #aa1133;
+  color: #666666;
 }
 
 .entry-header .entry-meta span,
@@ -1714,7 +1712,7 @@ blockquote.alignright {
 }
 
 .blog-home-content article .entry-header .entry-title a:hover {
-  color: #000;
+  color: #666666;
 }
 
 .blog-home-content article:first-child .entry-header {
@@ -1850,7 +1848,7 @@ blockquote.alignright {
 }
 
 .blog-archive-content article .entry-header .entry-title a:hover {
-  color: #000;
+  color: #666666;
 }
 
 .blog-archive-content .posts-navigation {
@@ -1916,7 +1914,7 @@ blockquote.alignright {
 
 .comment-metadata a:hover,
 .pingback .edit-link a:hover {
-  color: #aa1133;
+  color: #666666;
 }
 
 .comment-metadata {
@@ -2168,7 +2166,7 @@ blockquote.alignright {
 }
 
 .error404 article .entry-header .entry-title a:hover {
-  color: #000;
+  color: #666666;
 }
 
 .error404.header-image .site-header-image {

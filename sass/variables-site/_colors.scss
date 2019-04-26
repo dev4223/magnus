@@ -83,13 +83,13 @@ $color__link-hover: $color__base-tint40;
 $color__link-border: $color__base;
 
 $color__link-sidebar: $color__base;
-$color__link-sidebar-hover: $color__base-tint40;
+$color__link-sidebar-hover: $color__link-hover;
 
 $color__titlelink: $color__base;
-$color__titlelink-hover: $color__base;
+$color__titlelink-hover: $color__link-hover;
 
 $color__asidelink: $color__base-tint60;
-$color__asidelink-hover: $color__accent;
+$color__asidelink-hover: $color__link-hover;
 
 $color__headerlink: $color__base;
 $color__headerlink-hover: $color__base;
@@ -98,7 +98,7 @@ $color__headerlink-toggle-open: $color__base;
 $color__headerlink-toggle-open-hover: $color__base;
 
 $color__headernavlink: $color__base;
-$color__headernavlink-hover: $color__base;
+$color__headernavlink-hover: $color__link-hover;
 
 $color__footerlink: $color__base-tint70;
 $color__footerlink-hover: $color__accent;
